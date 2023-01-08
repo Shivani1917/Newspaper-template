@@ -29,23 +29,10 @@ hr1{
 }
 
 h1{
-    font-size: 200px;
+    font-size: 100px;
     font-weight: 400;
     text-align: center;
     margin: 0;
-}
-
-.ad{
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 2px;
-    margin-top: 0;
-    text-transform: uppercase;
-    font-style: italic;
-    background-color: black;
-    color: white;
-    width: 85%;
-    margin: auto;
 }
 
 span{
@@ -75,4 +62,42 @@ span{
     border: 0;
     border-top: 1px solid black;
     padding: 0;
+}
+
+.break1{
+    grid-area: break1;
+    border-color: black;
+    height: 400px;
+}
+
+.img1{
+    grid-area: img1;
+    min-height: 400px;
+    min-width: 900px;
+    background-color: gray;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.first-container{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-areas: 
+    'p1 break1 img1'
+    'p1 break1 img1'
+    'p1 break1 img1';
+}
+
+.p1 h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.second-container{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-areas: 'mid-break ';
 }
