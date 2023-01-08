@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    width: 50%;
+    width: 90%;
     margin: auto;
 }
 
@@ -66,4 +66,13 @@ span{
     font-weight: 500;
     margin-top: 10px;
     font-size: 20px;
+}
+
+.hr2{
+    margin: 40px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
 }
